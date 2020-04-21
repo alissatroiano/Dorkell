@@ -3,20 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>TechKnow</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-<!--hero--------------------------------------->
+
+<!-- breadcrumb: https://bulma.io/documentation/components/breadcrumb/ -->
+<section class="section is-paddingless-horizontal">
+    <div class="container grid">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="#"><i class="fas fa-code"></i>TechKnow</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+    
+<!--hero---------------------------------------->
 <section class="hero">
 <img class="hero is-full-height has-bg-img" src="assets/images/masthead.jpg">
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
+        <h1>TITLE</h1>
         <div class="container">
-            <h1 class="title has-text-centered">
-                TITLE GOES HERE
-            </h1>
             <h2 class="subtitle has-text-centered">
                 SUBTITLE HERE
             </h2>
@@ -24,9 +36,10 @@
          <div class="container has-text-centered">
         </div>
     </section>
-<!--./hero--------------------------------------->
+<!--./hero---------------------------------------->
 
 <!--columns--------------------------------------->
+<section class="columns">
 <div class="columns">
     <div class="column">
     <div class="column">
@@ -81,9 +94,8 @@
                 </footer>
             </div>
         </div>
-
-        
-        </div>
+</div>
+<!--Column 3-->
     <div class="column">
         <div class="column">
             <div class="card">
@@ -112,6 +124,8 @@
         </div>
     </div>
 </div> 
+</section>
 
-  </bodys>
+
+  </body>
 </html>
