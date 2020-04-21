@@ -1,0 +1,7 @@
+
+/* Hero */
+
+.hero { 
+    background: url('/assets/images/masthead.jpg'); 
+    background-size: cover; 
+}
