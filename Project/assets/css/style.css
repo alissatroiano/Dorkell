@@ -1,31 +1,19 @@
 /* Grid */
+.is-paddingless-horizontal { 
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.grid *  { grid-column: md; }
+.grid-xl { grid-column: xl; }
+
 .grid {
     display: grid;
 	grid-template-columns:
 		[xl-start] 1fr [md-start] minmax(0, 624px) [md-end] 1fr [xl-end];
 }
 
-.grid * {
-    grid-column: 2 / 3;
-}
-
-.grid-xl {
-    grid-column: xl;
-}
-
-.section { 
-    padding-left: 0; 
-    padding-right: 0;
-    background-color: transparent;
-}
-
-/* Navbar */
-nav.breadcrumb {
-    background-color: transparent;
-}
-
 /* Hero */
-
 .hero { 
     background: url('/assets/images/masthead.jpg'); 
     background-size: cover; 
