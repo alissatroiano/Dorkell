@@ -1,0 +1,74 @@
+@import url("https://use.typekit.net/rch4eeb.css");
+
+html {
+    font-size: 16px;
+}
+
+/* Hero */
+
+section.hero {
+    background-image: url('../images/greenplanet.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*section.hero.is-medium {
+    background-image: url('../images/under-construction.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+} */
+
+h1 {
+    font-family: 'Lavigne-display', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    color: #000;
+} 
+
+h2.about, 
+h2.subtitle.has-text-centered {
+    font-family: 'Lavigne-display', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+h2.title {
+    font-family: 'Lavigne-display', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.title.is-2 {
+    font-size: 2.5rem;
+    padding-top: 50px;
+}
+
+.subtitle.is-3 {
+    font-family: 'Lavigne-display', sans-serif;
+    font-style: italic;
+    font-weight: 1rem;
+}
+
+.card-content {
+    padding: 1.25em;
+}
+
+.breadcrumb a,
+a {
+    font-family: 'Lavigne-display', sans-serif;
+    font-weight: 400;
+    color: #135c2e;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+li.is-active {
+    text-shadow: .5px .5px .5px #135c2e;
+}
