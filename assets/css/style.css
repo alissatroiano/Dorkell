@@ -15,6 +15,15 @@ section.hero {
     padding-bottom: 50px;
 }
 
+.hero.is-info {
+    background-image: url('assets/images/articles/dino.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*section.hero.is-medium {
     background-image: url('../images/under-construction.jpg');
     background-repeat: no-repeat;
@@ -50,7 +59,19 @@ h2.title {
     padding-top: 50px;
 }
 
-.subtitle.is-3 {
+.subtitle.is-3m {
+    font-family: 'Lavigne-display', sans-serif;
+    font-style: italic;
+    font-weight: 1rem;
+}
+
+p.is-medium, p {
+    font-family: 'Lavigne-display', sans-serif;
+    font-weight: 1rem;
+
+}
+
+blockquote {
     font-family: 'Lavigne-display', sans-serif;
     font-style: italic;
     font-weight: 1rem;
